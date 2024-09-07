@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightslategrey;
+    height: 80px;
+    margin-top: 0;
+}
+
+.nav>li {
+    color: white;
+}
+
+.nav>li:hover {
+    color: darkblue;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.productDesc {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
